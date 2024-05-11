@@ -1,13 +1,16 @@
-const express = require('express');
-const app = express();
 
-// Define routes
-app.get('/', (req, res) => {
-  res.send('Welcome to Harry\'s website!');
-});
-
-// Start the server
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+<html>
+    <h1>
+        Hey, I'm Harrison Bailey
+    </h1>
+    <body>
+        <h2>About me</h2>
+        <p>
+            I am a 13 year old who is an avid photographer and loves gaming.
+        </p>
+        <h2>What I'm working on</h2>
+        <p>
+            I'm obsessed with tech at the moment! Im working on revision for my upcoming exams.
+        </p>
+    </body>
+</html>
